@@ -44,6 +44,7 @@ context-switching.
 | Área | Função |
 |------|--------|
 | **Módulos** | Sidebar de acesso rápido: recon, crypto, payload, logs, processos, exploits |
+| **PERSONALIZAR** | 5 temas (vermelho, verde fósforo, âmbar, ciano, violeta) + 12 fontes monoespaçadas, aplicados na hora |
 | **Output Stream** | Console único, com timestamp em tudo |
 | **Command Input** | Um campo pra comandos internos **e** shell de verdade |
 | **Telemetria** | CPU, pacotes, dados cifrados e relógio atualizando sozinhos |
@@ -82,6 +83,7 @@ Digita no campo de comando e manda **ENTER**.
 | `clear` | Limpa a tela |
 | `scan` | Faz uma varredura de rede fake (`10.0.0.0/24`) |
 | `crypto <texto>` | Cifra o texto que você passar |
+| `custom` | Abre a página de personalização |
 | `sysinfo` | Info (fictícia) do sistema |
 | `run <comando>` | **Roda comando REAL no shell** e joga o resultado aqui |
 | `exit` / `quit` | Fecha o painel |
